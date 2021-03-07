@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background: linear-gradient(#f43a60 0%, #d74cff 50%, #3f5efb 100%);
+  background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#img1{
+   height: 200px;
+   width: 300px;
+   border-radius: 20px;
+}
+
+.menu {
+   
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.links:hover {
+    background-color: #7851a9;
+}
+
+#Welcome{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+#discription{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.Link:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Link:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Link:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Link:active {
+    color: deeppink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
